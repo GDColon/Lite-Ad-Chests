@@ -108,7 +108,7 @@ class $modify(GarageButSupporter, GJGarageLayer) {
 			auto icon = GJItemIcon::createBrowserItem(UnlockType::Cube, 71);
 			cur->createUnlockObject(icon, winSize / 2, 0.5f);
 
-			self->setupPage(1, IconType::Cube);
+			self->selectTab(IconType::Cube);
         }
 	};
 
