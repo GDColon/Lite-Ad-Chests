@@ -124,7 +124,7 @@ class $modify(GarageButSupporter, GJGarageLayer) {
 
 			dialogLines->addObject(DialogObject::create(
 				"Potbor",
-				"You're supposed to be on <cr>Meltdown</c> unlock this <cg>cube</c>...",
+				"You're supposed to be on <cr>Meltdown</c> to unlock this <cg>cube</c>...",
 				24, 1.0f, false, ccWHITE
 			));
 

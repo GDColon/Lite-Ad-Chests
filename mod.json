@@ -1,12 +1,14 @@
 {
-	"geode": "4.1.2",
+	"geode": "5.0.0",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074"
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
 	},
 	"id": "colon.lite_ad_chests",
 	"name": "Lite Ad Chests",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Colon",
 	"description": "Ports the ad chests from GD Lite",
 	"links": {
