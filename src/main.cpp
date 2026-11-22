@@ -18,6 +18,8 @@ class $modify(RewardsPageButAds, RewardsPage) {
 		FMODAudioEngine::get()->playEffect("chestClick.ogg");
 		auto nextChest = getNextAdChest();
 
+		log::info("next chest is -{}-", nextChest);
+
 		if (nextChest == "") {
 			noMoreChests();
 			return;
@@ -90,6 +92,7 @@ class $modify(RewardsPageButAds, RewardsPage) {
 		dialog->updateChatPlacement(DialogChatPlacement::Center);
 		dialog->animateInRandomSide();
 		dialog->addToMainScene();
+
 	}
 };
 
